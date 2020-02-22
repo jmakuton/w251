@@ -1,0 +1,8 @@
+FROM alpine
+
+RUN apk update && apk add \
+    mosquitto-clients \
+    python3 \
+    py-pip
+
+RUN pip3 install paho-mqtt
