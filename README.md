@@ -1,5 +1,4 @@
 # Homework 03 – w251 MIDS Spring 2020
-___
 
 We will build a lightweight IoT application pipeline with components running both on the edge (Nvidia Jetson TX2) and the cloud (a VM in Softlayer). The use case is to execute a face detection from the webcam on the TX2 and at the end of the pipeline, store it on a cloud storage. We will be using a microservice architecture to stay very modular and keep in mind that this should be able to run on low power edge devices.
 
