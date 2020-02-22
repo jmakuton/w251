@@ -202,7 +202,7 @@ Build the image
 sudo docker build -t face_detector -f Dockerfile_tx2_face_detector .
 ```
 
-Enable 
+Enable X so that the container can output to a window.
 ```
 xhost + local:root
 ```
