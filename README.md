@@ -36,7 +36,10 @@ vi /etc/ssh/sshd_config
 PermitRootLogin prohibit-password
 PasswordAuthentication no
 ```
-
+Restart the ssh daemon 
+```
+service sshd restart
+```
 Install Docker 
 ```
 sudo apt-get update
